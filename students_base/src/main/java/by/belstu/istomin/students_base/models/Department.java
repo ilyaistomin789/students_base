@@ -13,8 +13,8 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name = "subject")
-public class Subject {
+@Table(name = "department")
+public class Department {
     @Id
-    private String subjectName;
+    private String departmentName;
 }
