@@ -2,10 +2,10 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Registration</title>
+    <title>Teacher Registration</title>
 </head>
 <body>
-<form th:action="@{/registration}" th:object="${regForm}" method="post">
+<form th:action="@{/teacherRegistration}" th:object="${regForm}" method="post">
     <div>
         Login
         <input type="text" th:field="*{login}">

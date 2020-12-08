@@ -173,3 +173,4 @@ ALTER TABLE `department_subject` ADD FOREIGN KEY (subject) REFERENCES `subject` 
 -- ('');
 -- INSERT INTO `department` (`department`) VALUES
 -- ('');
+-- переделать studentrep subjectsrep вывод списка на страницу, контролер студент рейтинг

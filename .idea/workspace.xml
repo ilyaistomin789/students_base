@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daabd8f3-a8b5-4a33-a3c0-b59d254b067f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/components/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Department_Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/repository/StudentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/students_base/src/main/resources/database/generate.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/forms/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students_base/src/main/resources/templates/registration_success.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/controller/BaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Progress.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Progress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_base/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/repository/StudentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/repository/StudentRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/java/by/belstu/istomin/students_base/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/students_base/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/students_base/src/main/resources/templates/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +59,7 @@
       <workItem from="1603733831295" duration="513000" />
       <workItem from="1603734431685" duration="41000" />
       <workItem from="1604951519781" duration="14000" />
+      <workItem from="1607362737691" duration="16000" />
     </task>
     <servers />
   </component>
@@ -84,10 +75,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="827" y="325" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603734465839" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1604951532141">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1607362752231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604951532141" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607362752231" />
     <state x="828" y="417" key="Github.ShareDialog" timestamp="1602754840880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

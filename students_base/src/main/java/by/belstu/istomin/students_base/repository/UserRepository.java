@@ -2,6 +2,7 @@ package by.belstu.istomin.students_base.repository;
 
 import by.belstu.istomin.students_base.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
@@ -10,4 +11,7 @@ public interface UserRepository extends JpaRepository<User, Integer> {
     User findUserByUserId(Integer id);
     User findUserByLogin(String login);
     User findUserByLoginAndPassword(String login, String password);
+    boolean existsByLogin(String login);
+    @Query(value = "SELECT MAX(id) FROM users", nativeQuery = true)
+    int findMaxId();
 }

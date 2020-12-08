@@ -19,9 +19,7 @@ public class Student {
     @ManyToOne
     @JoinColumn(name = "userId")
     private User user;
-    private String firstName;
-    private String lastName;
-    private String middleName;
+    private String fioValue;
     private String faculty;
     private Date birthday;
 }

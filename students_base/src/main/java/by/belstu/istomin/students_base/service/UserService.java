@@ -2,7 +2,6 @@ package by.belstu.istomin.students_base.service;
 
 import by.belstu.istomin.students_base.components.Component;
 import by.belstu.istomin.students_base.models.User;
-import by.belstu.istomin.students_base.repository.StudentRepository;
 import by.belstu.istomin.students_base.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,8 +15,7 @@ public class UserService {
     private EntityManager em;
     @Autowired
     UserRepository userRepository;
-    @Autowired
-    StudentRepository studentRepository;
+
     public User getUserById(Integer id){
         return userRepository.findUserByUserId(id);
     }
@@ -26,5 +24,31 @@ public class UserService {
     }
     public User getUserByLoginAndPassword(String login, String password){
         return userRepository.findUserByLoginAndPassword(login,password);
+    }
+    public boolean existsByLogin(String login){
+        return userRepository.existsByLogin(login);
+    }
+    public boolean saveStudent(User user){
+        if (userRepository.existsByLogin(user.getLogin())){
+            return false;
+        }
+        else{
+            user.setRole(Component.STUDENT_ROLE);
+            userRepository.save(user);
+            return true;
+        }
+    }
+    public boolean saveTeacher(User user){
+        if (userRepository.existsByLogin(user.getLogin())){
+            return false;
+        }
+        else{
+            user.setRole(Component.TEACHER_ROLE);
+            userRepository.save(user);
+            return true;
+        }
+    }
+    public int findMaxId(){
+        return userRepository.findMaxId();
     }
 }
