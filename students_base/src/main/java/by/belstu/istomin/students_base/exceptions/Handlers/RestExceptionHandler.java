@@ -1,6 +1,6 @@
 package by.belstu.istomin.students_base.exceptions.Handlers;
 
-import by.belstu.istomin.students_base.exceptions;
+import by.belstu.istomin.students_base.exceptions.*;
 import by.belstu.istomin.students_base.exceptions.UserValidationException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

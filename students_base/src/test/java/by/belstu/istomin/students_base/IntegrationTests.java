@@ -1,7 +1,7 @@
-package com.example.students;
+package by.belstu.istomin.students_base;
 
-import com.example.students.model.Role;
-import com.example.students.security.jwt.JwtTokenProvider;
+import by.belstu.istomin.students_base.model.Role;
+import by.belstu.istomin.students_base.security.jwt.JwtTokenProvider;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

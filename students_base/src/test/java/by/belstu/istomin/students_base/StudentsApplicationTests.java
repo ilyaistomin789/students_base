@@ -1,9 +1,9 @@
-package com.example.students;
+package by.belstu.istomin.students_base;
 
-import com.example.students.model.Faculty;
-import com.example.students.model.Subject;
-import com.example.students.repositories.IFacultyRepository;
-import com.example.students.repositories.ISubjectRepository;
+import by.belstu.istomin.students_base.model.Faculty;
+import by.belstu.istomin.students_base.model.Subject;
+import by.belstu.istomin.students_base.repositories.IFacultyRepository;
+import by.belstu.istomin.students_base.repositories.ISubjectRepository;
 import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
