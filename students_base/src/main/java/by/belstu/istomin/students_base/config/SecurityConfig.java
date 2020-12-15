@@ -1,7 +1,7 @@
-package com.example.students.config;
+package by.belstu.istomin.students_base.config;
 
-import com.example.students.security.jwt.JwtConfigurer;
-import com.example.students.security.jwt.JwtTokenProvider;
+import by.belstu.istomin.students_base.security.jwt.JwtConfigurer;
+import by.belstu.istomin.students_base.security.jwt.JwtTokenProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

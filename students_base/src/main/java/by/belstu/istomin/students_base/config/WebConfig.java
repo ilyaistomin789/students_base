@@ -1,4 +1,4 @@
-package com.example.students.config;
+package by.belstu.istomin.students_base.config;
 
 
 import org.springframework.context.annotation.Bean;

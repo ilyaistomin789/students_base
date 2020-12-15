@@ -1,7 +1,7 @@
-package com.example.students.dto;
+package by.belstu.istomin.students_base.dto;
 
-import com.example.students.model.Faculty;
-import com.example.students.model.User;
+import by.belstu.istomin.students_base.model.Faculty;
+import by.belstu.istomin.students_base.model.User;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
